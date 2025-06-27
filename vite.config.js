@@ -6,7 +6,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.NODE_ENV === 'production' ? '/analisadorv1/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/analisadorv4/' : '/',
   build: {
     outDir: 'dist'
   },
